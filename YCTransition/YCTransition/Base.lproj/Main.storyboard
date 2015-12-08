@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C48a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="L4z-Pt-3jF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qqF-gz-oYg">
+            <objects>
+                <navigationController id="L4z-Pt-3jF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NXP-Pn-tWl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ta9-RF-rtv" kind="relationship" relationship="rootViewController" id="c6d-FC-Cvk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGm-ed-1Ox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-491" y="320"/>
+        </scene>
+        <!--FirstController-->
+        <scene sceneID="61q-LR-Evl">
+            <objects>
+                <viewController id="Ta9-RF-rtv" customClass="ViewController" customModule="YCTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0YI-mw-lB1"/>
+                        <viewControllerLayoutGuide type="bottom" id="K57-AK-Qby"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uiU-rL-C49">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAc-DK-HmT">
+                                <rect key="frame" x="270" y="285" width="60" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="h5e-6H-aS5"/>
+                                    <constraint firstAttribute="width" constant="60" id="thf-Vt-Okv"/>
+                                </constraints>
+                                <state key="normal" title="走你">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClick" destination="Ta9-RF-rtv" eventType="touchUpInside" id="s2f-V4-tER"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EAc-DK-HmT" firstAttribute="centerX" secondItem="uiU-rL-C49" secondAttribute="centerX" id="1fN-Le-qV7"/>
+                            <constraint firstItem="EAc-DK-HmT" firstAttribute="centerY" secondItem="uiU-rL-C49" secondAttribute="centerY" id="xOy-J4-dqV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="FirstController" id="WsL-ON-uIT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sCa-Ba-GFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="167" y="320"/>
+        </scene>
+    </scenes>
+</document>
