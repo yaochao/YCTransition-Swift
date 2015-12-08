@@ -1,3 +1,5 @@
+<img src="http://cdn.sinacloud.net/yaochao/img/6609c93d70cf3bc7e43db93dd500baa1cd112a25.jpg?KID=sina,100o6obVBjKJJ69Flybq&Expires=1449561440&ssig=fpQriuvNsE" alt="Swift logo" height="100" >
+
 # YCTransition Swift Edition
 
 ## Blog
