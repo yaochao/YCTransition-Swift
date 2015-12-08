@@ -1,4 +1,4 @@
-<img src="http://images2015.cnblogs.com/blog/627165/201512/627165-20151208150601246-154139815.jpg" alt="Teacher Cang" height=80>
+![(logo)](http://images2015.cnblogs.com/blog/627165/201512/627165-20151208150601246-154139815.jpg)
 # YCTransition Swift Edition
 
 ## Blog
